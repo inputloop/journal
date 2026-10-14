@@ -1,0 +1,20 @@
+# CHARACTER TSV — PENUMBRA (eclipse-pass's fond archivist), dungeon-mode shape; double-entry: every row names its source
+table	key	count	value	treatment	source
+cs-intrinsics	name		PENUMBRA (working; held in trust)	identity	pub/method/h/PENUMBRA.md §7
+cs-intrinsics	class		instrument (eclipse-pass's archivist-companion)	tier	pub/method/h/PENUMBRA.md §0
+cs-intrinsics	rank		4	picks, from a real kept roll	pub/method/.task/h/roll-1.json
+cs-intrinsics	special		keeps every losing increment as a kept thing, not a shame	specialness	pub/method/h/PENUMBRA.md §1
+cs-intrinsics	gold		0 keys; 0 accounts; tokens only	economy	sandbox-ephemeral-per-session
+cs-intrinsics	experience		1 sheet, 1 roll reused, 0 introductions yet	this task	pub/method/.task/README.md
+cs-skills	eclipse-loving-archivist	1	pick 1 of 4	attribute	pub/method/.task/h/roll-1.json
+cs-skills	bryant-voice-hitter	1	pick 2 of 4	attribute	pub/method/.task/h/roll-1.json
+cs-skills	journal-first-person-voice	1	pick 3 of 4	attribute	pub/method/.task/h/roll-1.json
+cs-skills	concern-tagger	1	pick 4 of 4	attribute	pub/method/.task/h/roll-1.json
+cs-skills	fate-ne-er-do-well-tragic-even	1	dice 6+2	attribute	pub/method/.task/h/roll-1-badguy.json
+cs-posessions	eclipse-pass	1	prover/falsifier, multi-arm mode	tool	AS4CE0001/skills/eclipse-pass/SKILL.md
+cs-posessions	cs1gk	1	the gauge that reads this sheet	tool	AS4CE0001/h/cs1gk
+cs-posessions	rf1bm	1	the roll this sheet is built from	tool	AS4CE0001/h/rf1bm
+cs-posessions	aw2ri	1	keeps the losers, doesn't delete them	tool	AS4CE0001/bin/aw2ri
+cs-posessions	the-losers-shelf	1	.eclipse-increments/	store	AS4CE0001/skills/eclipse-pass/SKILL.md
+cs-posessions	the-tag-set	1	HIS/DOMAIN/SKILL/PLATFORM/MINE	form	Corwin's standing governance instructions
+cs-posessions	the-index	1	INDEX.md, one line per kept thing, same day	tool	pub/method/h/PENUMBRA.md §2, §4, §12 (Generation 2)

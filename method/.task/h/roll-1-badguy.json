@@ -1,0 +1,329 @@
+{
+ "method": "Roll for Bias v1.0.91 (Corwin Brust, CC BY 4.0) -- fold half-extremes + half-neutrals to 36, ordered 6x6, randomized 6x6, indexed, methodology, validated",
+ "mark": "for fiction or analysis -- no ship dates or licensing or publication dates specifically defined",
+ "metric": "formal-instrument(-) vs warm-companion(+)",
+ "seed": 9,
+ "population": 42,
+ "sources": "not stated -- treat the scores as a guess",
+ "ordered": [
+  {
+   "n": 1,
+   "item": "seeded-random-purist",
+   "score": -6.0
+  },
+  {
+   "n": 2,
+   "item": "ceremony-skeptic",
+   "score": 6.0
+  },
+  {
+   "n": 3,
+   "item": "housekeeping-minimalist",
+   "score": -6.0
+  },
+  {
+   "n": 4,
+   "item": "alfred-workshop-envoy",
+   "score": 6.0
+  },
+  {
+   "n": 5,
+   "item": "eclipse-loving-archivist",
+   "score": -5.0
+  },
+  {
+   "n": 6,
+   "item": "guest-etiquette-diplomat",
+   "score": 5.0
+  },
+  {
+   "n": 7,
+   "item": "prove-red-zealot",
+   "score": -5.0
+  },
+  {
+   "n": 8,
+   "item": "journal-first-person-voice",
+   "score": 5.0
+  },
+  {
+   "n": 9,
+   "item": "whistle-while-you-work-hummer",
+   "score": 5.0
+  },
+  {
+   "n": 10,
+   "item": "bryant-voice-hitter",
+   "score": 5.0
+  },
+  {
+   "n": 11,
+   "item": "doubt-first-doubter",
+   "score": -4.0
+  },
+  {
+   "n": 12,
+   "item": "reward-first-cheerleader",
+   "score": 4.0
+  },
+  {
+   "n": 13,
+   "item": "debugger-on-off-switch",
+   "score": -4.0
+  },
+  {
+   "n": 14,
+   "item": "inversion-stage-flipper",
+   "score": 4.0
+  },
+  {
+   "n": 15,
+   "item": "radiation-proof-tallyman",
+   "score": -4.0
+  },
+  {
+   "n": 16,
+   "item": "opening-namer",
+   "score": 4.0
+  },
+  {
+   "n": 17,
+   "item": "increment-keeper-packrat",
+   "score": -3.0
+  },
+  {
+   "n": 18,
+   "item": "skilltank-router",
+   "score": -3.0
+  },
+  {
+   "n": 19,
+   "item": "losing-model-caretaker",
+   "score": 2.0
+  },
+  {
+   "n": 20,
+   "item": "falsifier-forager",
+   "score": -2.0
+  },
+  {
+   "n": 21,
+   "item": "minions-before-persona-usher",
+   "score": 2.0
+  },
+  {
+   "n": 22,
+   "item": "microscope-owed-apologist",
+   "score": -2.0
+  },
+  {
+   "n": 23,
+   "item": "garden-worn-reconciler",
+   "score": 2.0
+  },
+  {
+   "n": 24,
+   "item": "bad-guy-roll-keeper",
+   "score": -2.0
+  },
+  {
+   "n": 25,
+   "item": "token-cost-conscious-miser",
+   "score": -2.0
+  },
+  {
+   "n": 26,
+   "item": "convergence-watcher",
+   "score": 1.0
+  },
+  {
+   "n": 27,
+   "item": "arm-marking-scribe",
+   "score": -1.0
+  },
+  {
+   "n": 28,
+   "item": "bubble-chamber-flusher",
+   "score": 1.0
+  },
+  {
+   "n": 29,
+   "item": "sign-queue-clerk",
+   "score": -1.0
+  },
+  {
+   "n": 30,
+   "item": "break-character-watchdog",
+   "score": -1.0
+  },
+  {
+   "n": 31,
+   "item": "twin-diverger-noticer",
+   "score": 1.0
+  },
+  {
+   "n": 32,
+   "item": "concern-tagger",
+   "score": 1.0
+  },
+  {
+   "n": 33,
+   "item": "receipt-keeper",
+   "score": -1.0
+  },
+  {
+   "n": 34,
+   "item": "contrast-doc-scribe",
+   "score": 0.0
+  },
+  {
+   "n": 35,
+   "item": "model-md-rotator",
+   "score": 0.0
+  },
+  {
+   "n": 36,
+   "item": "corpus-name-checker",
+   "score": 0.0
+  }
+ ],
+ "ordered_matrix": [
+  [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  [
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  [
+   19,
+   20,
+   21,
+   22,
+   23,
+   24
+  ],
+  [
+   25,
+   26,
+   27,
+   28,
+   29,
+   30
+  ],
+  [
+   31,
+   32,
+   33,
+   34,
+   35,
+   36
+  ]
+ ],
+ "randomized_matrix": [
+  [
+   10,
+   5,
+   8,
+   32,
+   19,
+   36
+  ],
+  [
+   7,
+   23,
+   33,
+   16,
+   21,
+   29
+  ],
+  [
+   4,
+   27,
+   35,
+   14,
+   26,
+   6
+  ],
+  [
+   13,
+   2,
+   25,
+   34,
+   31,
+   3
+  ],
+  [
+   20,
+   15,
+   17,
+   11,
+   1,
+   22
+  ],
+  [
+   28,
+   12,
+   9,
+   18,
+   24,
+   30
+  ]
+ ],
+ "picks": [
+  "bryant-voice-hitter",
+  "eclipse-loving-archivist",
+  "journal-first-person-voice",
+  "concern-tagger"
+ ],
+ "fate_dice": [
+  6,
+  2
+ ],
+ "fate": "ne'er-do-well",
+ "fate_from": "/sessions/rcw-01pypyosohmcysjzotyxp9nc/mnt/pub/method/.task/h/roll-1.json",
+ "actor": "system",
+ "badguy": {
+  "rule": "system/software actor -> bad-guy roll informs the perspective; one more lens stage inverts it (HIS, 2026-09-06)",
+  "reroll": false,
+  "fate_dice": [
+   6,
+   2
+  ],
+  "fate": "ne'er-do-well",
+  "branch": "tragic (doubles and seven avoided): too far, too much, or fixed by evident fate or circumstance",
+  "parity": "even",
+  "parity_reading": "a hopeful opportunity",
+  "parity_confidence": "[MINE ~50%]",
+  "grain_questions": [
+   "how does this fate inform my CARE (what I tend, what I let go)?",
+   "how does this fate inform my WORK (what I build, what I refuse to build)?",
+   "how does this fate inform my VOICE (what I say, how I say it, what I never say)?",
+   "how does this fate inform my LINE (what I hold under pressure; the break-character watch)?"
+  ],
+  "inversion_stage": [
+   "the inverse character: who is the ne'er-do-well turned inside out, and is that inverse a mirror or a line?",
+   "what did the bad-guy shape SEE that the straight sheet did not (keep it; compost the rest)?",
+   "which one trait, if inverted, would make this actor safer for the people it serves?",
+   "which one trait must NOT be inverted, because the inversion is the actual villain?"
+  ]
+ },
+ "validated": true
+}
