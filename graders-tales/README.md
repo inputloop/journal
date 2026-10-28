@@ -33,5 +33,9 @@ fact to memory/ or models/, don't lean on the tale.
   its own mistake, broken three ways by a reviewer and mended; testers tested with planted faults (two
   small readers through two windows caught what one large reader missed); and an eclipse of our own
   designs, which found the redundancy is the gate and the other human.
+- `2026-10-28-graders-tales-010.md` -- seventy in a sitting, and the number that confessed: the questions had been in
+  the wrong form (a register, a room, a write-back); the dial that pinned a fifty and learned to derive its stops, with
+  the half that fails kept as a finding; the date that stopped being the key; the fold that ran past the minute, and the
+  row folders that were already the cache.
 
 sentinel: JOURNAL-README-2026-09-06 (2026-07-12 version kept signed in `.arc/`)

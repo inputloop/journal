@@ -1,0 +1,12 @@
+# The main session's verdict on every FALSE or UNCHECKED-that-matters finding of the two fact-checks of
+# docs/books/manual.md (commit 7d11ded). valid: the book was wrong. partial: the book was loose. invalid: the book was right.
+claim	haiku	sonnet	verdict	evidence	fix
+§3 project ships no Nintendo pictures	FALSE (T17)	TRUE (4)	valid	git ls-files docs/screenshots: 18 game PNGs (MODDING.md: "the maintainers' choice")	say the code ships none of the game's data, and the README keeps a few screenshots
+§3 your saves stay home	FALSE (T19)	TRUE (16)	partial	saves/ref/*.sav are tracked reference saves; the claim is about the player's own saves	say "your own saves"
+§7 ping marks where you stand	FALSE (T47)	TRUE (41)	valid	MULTIPLAYER.md: look-here ring 1.5 tiles in front; HELP where you stand	say so
+§8 the menu's screens	TRUE (T51)	FALSE (52)	valid	src/ui.c:373-395 also Controls help, Save settings, Quit game	add them
+§10 right stick in = first person	FALSE (T73)	FALSE (74)	valid	src/ui.c:1317 "Left click or L3"; bindings.c R3 is Ping	L3 (the left stick, pressed in)
+§11 every key is in zelda3.ini	FALSE (T82)	TRUE (83)	valid	Ping/View in Controls only; Esc hard-coded	say "most keys"
+§13 DeathLink: one falls, all fall	FALSE (T91)	TRUE (93, "a simplification")	valid	README.md:384-391: sent on game over; one Link down is not a death	say: when a game ends in game over
+§15 "zelda3_assets.dat was not found"	FALSE (T101)	UNCHECKED (100)	valid	src/main.c:1278 "zelda3_assets.dat is missing."	quote it
+§15 macOS: not signed by Apple	FALSE (T104)	TRUE (101)	valid	README.md:678-681 "not notarized by Apple"	say notarized

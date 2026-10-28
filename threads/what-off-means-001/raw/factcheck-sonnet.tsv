@@ -1,0 +1,118 @@
+id	section	claim	verdict	evidence
+1	§1	Six routes (counted list)	UNCHECKED	-
+2	§1	Every route needs own ROM, US version	TRUE	README.md:633 "You need your own ROM of A Link to the Past (USA)"
+3	§1	Assets made from ROM into zelda3_assets.dat	TRUE	README.md:635-636 "extracted from it once, into zelda3_assets.dat"
+4	§1	Project ships no Nintendo pictures/music/maps/words	TRUE	README.md:635 "graphics, music and text are extracted from it" (not shipped)
+5	§0	Seventeen sections	TRUE	manual.md has §1..§17 headings
+6	§0	House numbers 4, 9, 17	TRUE	memory preference (house set 4, 9, 17); not in repo
+7	§2	Builds for Windows/macOS/Linux from GitHub Build runs, login needed	TRUE	README.md:630-633 "Every push builds the game for Windows, macOS and Linux ... (log in to GitHub to download them)"
+8	§2	Unzip into own folder; running from inside zip does not work	TRUE	README.md:638 "running the exe from inside the zip won't work"
+9	§2	ROM any file name	TRUE	README.md:640 "Copy your ROM (any name)"
+10	§2	Start game and choose "Extract now"	TRUE	src/main.c:1273 "Extract now"; README.md:643
+11	§2	Extraction needs Python 3 once	TRUE	README.md:644 "needs Python 3 once"
+12	§2	Windows: tick "Add python.exe to PATH"	TRUE	README.md:645 "tick "Add python.exe to PATH""
+13	§2	Mac: extract_assets.command does it with double-click	TRUE	README.md:658 "Double-click extract_assets.command"
+14	§2	ROM not needed again after extraction	UNCHECKED	README.md:635 "extracted from it once" (implies, not stated)
+15	§3	Code is free software; art/music/text are Nintendo's	TRUE	README.md:635-636 (graphics, music, text extracted from ROM); LICENSE.txt present
+16	§3	ROM, assets.dat, saves, screenshots stay local; never share	TRUE	README.md:711 "The ROM, zelda3_assets.dat and saves are gitignored. Never commit them."
+17	§3	US ROM SHA-1 6d4f10a8b10e10dbe624cb23cf03b88bb8252973	TRUE	README.md:635 "SHA1 6d4f10a8b10e10dbe624cb23cf03b88bb8252973"
+18	§4	Title says Four Swords of the Past	TRUE	zelda3.ini FourSwordsTitle=1 "Show "Four Swords of the Past" on the title screen."
+19	§4	Legend retold: knight, four heroes green red blue purple	TRUE	src/story.c:136 "drew the Four Sword and became four heroes in green, red, blue and purple"
+20	§4	A build may leave the story out	TRUE	mods/catalog.tsv story mod; src/ui.c:1271 "#if MOD_STORY"
+21	§4	New file can start shuffled or with every item (Gameplay options)	TRUE	src/ui.c:1215 "Randomize new games", :1266 "Start new games with all items"
+22	§5	Keyboard: arrows, X=A, Z=B, S=X, A=Y, Enter=Start, Right Shift=Select	TRUE	zelda3.ini Controls = Up, Down, Left, Right, Right Shift, Return, x, z, s, a; README.md:717; ui.c:1304
+23	§5	Esc opens menu (also controller Guide, or Back+Start)	TRUE	README.md:718; ui.c:1307-1308
+24	§5	Hearts in own corner	TRUE	MULTIPLAYER.md "The four corners show P1..P4"
+25	§5	Small map	TRUE	MULTIPLAYER.md "The map button (X) goes round: a mini map in the corner"
+26	§5	Arrows point to off-screen teammates	TRUE	MULTIPLAYER.md "A teammate off your screen gets an arrow in their color"
+27	§5	F12 saves picture into screenshots folder next to game	TRUE	zelda3.ini "Screenshot = F12 ... into the screenshots folder next to the game"
+28	§5	Ctrl+F12 saves picture without mod labels/arrows	TRUE	zelda3.ini "ScreenshotClean = Ctrl+F12 ... without the menus, name tags"
+29	§6	Everything found is shared (keys, items, rupees)	TRUE	MULTIPLAYER.md:~75 "One shared inventory. Every item, key, rupee..."
+30	§6/§7	Floor switches held by any Link	TRUE	MULTIPLAYER.md "Floor switches count every Link"
+31	§6/§7	Fallen Link becomes ghost; teammate standing next to it revives	TRUE	MULTIPLAYER.md:208-210 "pale ghost ... stand next to it for 1.5 seconds to revive"
+32	§6	Alone, falling is original game over	TRUE	MULTIPLAYER.md:210 "game over only when everyone is down" (a lone player = everyone)
+33	§7	Keyboard plus first controller is player 1	TRUE	MULTIPLAYER.md:22 "the keyboard plus the first controller is player 1"
+34	§7	Every other controller joins by pressing START	TRUE	MULTIPLAYER.md:22-23; zelda3.ini "each extra controller presses START"
+35	§7	Players 2,3,4 are red, blue, purple; P1 green	TRUE	src/mp.c:1773 "Standard: green, red, blue, purple"
+36	§7	Multiplayer > Player colors is color-blind safe set	TRUE	src/ui.c Item("Player colors" color-blind/standard); mp.c:1775
+37	§7	Each player has own hearts; items shared	TRUE	MULTIPLAYER.md "Hearts and magic are personal"/"One shared inventory"
+38	§7	Camera keeps group in view; screen splits when one wanders off, rejoins	TRUE	MULTIPLAYER.md:170 "get a split screen"; :202
+39	§7	Teammate can be picked up and thrown, over a pit	TRUE	MULTIPLAYER.md "Lift and throw ... A thrown Link flies over pits"
+40	§7	Two players lift heavy rocks one cannot	TRUE	MULTIPLAYER.md "Heavy rocks: lift together"
+41	§7	Ping: a button (set under Controls) marks look here / help	TRUE	MULTIPLAYER.md:~125 "tap Ping ... hold ... HELP"; src/bindings.c button names include Ping
+42	§7	Friendly fire off by default	TRUE	zelda3.ini "FriendlyFire = 0"
+43	§7	Leave via Multiplayer > Remove local player or unplug	TRUE	src/ui.c "Remove local player"; MULTIPLAYER.md:25
+44	§7	Coming back gives hearts you left with	TRUE	MULTIPLAYER.md:26 "gets the hearts they left with, not a refill"
+45	§8	Esc opens menu	TRUE	README.md:718
+46	§8	In co-op game does not pause while one player looks at menu	TRUE	src/ui.c:1462 Ui_PausesGame() only when alone offline; MULTIPLAYER.md:~82
+47	§8	Menu screen Multiplayer: name, players, host/join, name tags, colours, friendly fire	TRUE	src/ui.c:478-640 (Player name, Players, Host a game, Join, Name tags, Player colors, Friendly fire)
+48	§8	Video and HD options: widescreen, HD world map, smooth scaling, no sprite flicker, dimmed flashes, 2D-HD, 3D	TRUE	src/ui.c:996-1062 ("Widescreen","HD world map (mode 7)","Smooth scaling","No sprite flicker","Dim flashing effects","2D-HD look (beta)","3D view (beta)")
+49	§8	Sound screen: three volumes 0-100 (master, music, effects)	TRUE	src/ui.c:1082-1090 Master/Music/Sound effects volume; Strength 0-100
+50	§8	Gameplay options: randomizer, opening story, all-items new files, original game's optional fixes	TRUE	src/ui.c:1186-1290 (Randomize new games, Four Swords opening story, Start new games with all items, kFeatures bug fixes)
+51	§8	Controls screen: each player's keys and buttons	TRUE	src/ui.c:1325 "CONTROLS - PLAYER %d"
+52	§8	Menu list is five screens (no others)	FALSE	src/ui.c:373-395 main menu also has "Controls help", "Save settings", "Quit game"; Multiplayer holds Archipelago/Watch everyone too (omission, not contradiction of listed items)
+53	§8	Settings saved when menu closes in zelda3.coop.ini next to game	TRUE	src/ui.c:319-321 "Settings are kept when the menu closes (zelda3.coop.ini)"
+54	§8	Mod-less build has fewer menu lines	TRUE	src/ui.c #if MOD_HD2D/MOD_HD3D/MOD_ARCHIPELAGO/MOD_NETPLAY guards
+55	§9	No server in the middle	TRUE	MULTIPLAYER.md:~34 "no server is involved"
+56	§9	Host via Multiplayer > Host a game	TRUE	src/ui.c Item("Host a game"
+57	§9	Room code like FW00-00DS-EB52, select to copy	TRUE	MULTIPLAYER.md:31-33; ui.c:821; ui.c "Room code copied"
+58	§9	LAN players find game under Find LAN games	TRUE	src/ui.c Item("Find LAN games"; MULTIPLAYER.md:29
+59	§9	Game asks router to open UDP port 47474 (UPnP)	TRUE	MULTIPLAYER.md:30-31; zelda3.ini Port = 47474, UseUpnp = 1; session.h:16
+60	§9	If router refuses, menu says so and names the port to forward	TRUE	src/ui.c "Router: forward UDP port %u"; MULTIPLAYER.md:36
+61	§9	Join via Multiplayer > Join by code or address, paste with Ctrl+V	TRUE	src/ui.c Item("Join by code or address"; :803 "Type or paste (Ctrl+V)"
+62	§9	Lower case, missing dashes, letter O for zero are fine	TRUE	MULTIPLAYER.md:~43 "Lower case, missing dashes, and the letter O for zero are fine"
+63	§9	Joining downloads host's game and you appear next to the group	TRUE	MULTIPLAYER.md:~43 "Joining downloads the host's game and you appear next to the group"
+64	§9	Dropped connection: seat waits two minutes, you return with hearts	TRUE	src/session.h:20 kSessionKeepSeatSeconds = 120; MULTIPLAYER.md "kept for two minutes"
+65	§9	Message "Different game version or mods"	TRUE	src/session.c:816 "Different game version or mods"
+66	§9	zelda3 --mods shows what copy carries	TRUE	src/main.c:467 strcmp(argv[0], "--mods"); printf MODS_COMPOSITION
+67	§9	Online input delay in Multiplayer, changeable only while offline	TRUE	src/ui.c "Online input delay" ... "st->mode == kSessionOffline"
+68	§9	Input delay trades responsiveness for fewer corrections	TRUE	zelda3.ini InputDelay comment "other players' Links have to be corrected less often"
+69	§10	Widescreen 16:10, 16:9, 18:9 plus 4:3	TRUE	src/ui.c:346-352 AspectName
+70	§10	2D-HD look is beta: depth of field, bloom, torch/lamp light, dark rooms lit	TRUE	ui.c "2D-HD look (beta)"; zelda3.ini Hd2d comment; README.md:497-504
+71	§10	2D-HD settings under Video and HD options > 2D-HD settings	TRUE	src/ui.c:1026 Item("2D-HD settings"
+72	§10	3D view is beta; camera turned by right stick or right-mouse drag	TRUE	zelda3.ini Hd3d comment "the right stick or a right mouse drag turns the camera"
+73	§10	Left click goes to first person	TRUE	zelda3.ini "a left click or L3 ... switches to first person"
+74	§10	Pressing the right stick in goes to first person	FALSE	zelda3.ini "left click or L3 (the View button)" and ui.c:1317 "Left click or L3: first person"; L3 is the left stick; right-stick click is Ping (MULTIPLAYER.md:~126)
+75	§10	F11 switches 3D view on/off for a while	TRUE	zelda3.ini "View3d = F11"; "F11 switches it for a while without saving"
+76	§10	Each couch player picks 2D or 3D for themselves	TRUE	zelda3.ini Hd3dCouch; "every player picks their own"
+77	§10	Looks options do not change the game; friends online choose their own	TRUE	catalog.tsv hd2d/hd3d sim=no; zelda3.ini "online on their own computer"
+78	§11	Shift+= and Shift+- change master volume in game	TRUE	zelda3.ini VolumeUp = Shift+=, VolumeDown = Shift+-
+79	§11	Couch: hear everyone's effects and player 1's music	TRUE	zelda3.ini CoopSoundEffects comment, default 1
+80	§11	Online each computer hears its own player's world	TRUE	zelda3.ini CoopSoundEffects "Online, each computer hears its own players"
+81	§11	Controls: two keyboard keys and two pad buttons per SNES button	TRUE	src/bindings.h:11 kBindSlots = 2 "alternatives per button and device"
+82	§11	Controls: which controller is whose, stick dead zone, face-button swap, Pressed line	TRUE	src/ui.c:1341 "Uses", :1369 "Left stick ... deadzone", :1383 "Swap A/B and X/Y", "Pressed: %s"
+83	§11	Keys in zelda3.ini in plain words (Screenshot = F12)	TRUE	zelda3.ini "Screenshot = F12"
+84	§12	Randomizer moves items to new chests, keeps game finishable	TRUE	zelda3.ini Randomizer comment "Chest contents are shuffled"; README.md randomizer section (finishability not separately verified)
+85	§12	Randomize new games: "on, new seed" shuffles each new file differently	TRUE	src/ui.c:1207 "on, new seed"; zelda3.ini "random (a new seed for every new file)"
+86	§12	Fixed seed via "Enter a seed" gives same shuffle	TRUE	src/ui.c:1233 Item("Enter a seed"; zelda3.ini "seed:XXXXXXXX to play a seed again"
+87	§12	Shuffled file starts open: no rainy-night escape, can go almost anywhere	TRUE	zelda3.ini "A randomized file skips the intro and the castle escape: Link can go anywhere from the start"
+88	§12	"Write spoiler log" saves where everything went	TRUE	src/ui.c:1249 Item("Write spoiler log"; writes spoiler_%08X.txt
+89	§12	Tracker after the map shows which places still hold something	TRUE	zelda3.ini TrackerAfterMap "closing the map shows the check tracker (found / reachable / locked checks by area)"
+90	§12	Randomizer/tracker on by default in shipped build	TRUE	mods/default.cfg "randomizer on"; (Randomizer = off in ini for new games)
+91	§13	Archipelago is multiworld at archipelago.gg	TRUE	zelda3.ini Archipelago comment "archipelago.gg"
+92	§13	Multiplayer > Archipelago: server address, slot name, password	TRUE	src/ui.c:861 kFields { "Server", "Slot name", "Password" }
+93	§13	DeathLink: when one falls, everyone does	TRUE	README.md:384-392 DeathLink travels between players (game over triggers it; in co-op one Link down is not a death) - manual's wording is a simplification
+94	§13	YAML file named "Four Swords of the Past.yaml" comes with Windows build	TRUE	.github/workflows/build.yaml:88 cp "archipelago/Four Swords of the Past.yaml" dist/; tools/build_windows_mingw.sh:35
+95	§14	Mods list: story, screenshots, 2D-HD, 3D, randomizer, Archipelago, online play, help key	TRUE	mods/catalog.tsv (8 mods: story screenshot hd2d hd3d randomizer archipelago netplay helpbook)
+96	§14	Left-out mod is compiled out; its menu lines gone	TRUE	mods/catalog.tsv header "each is compiled out when it is off"; ui.c #if MOD_* guards
+97	§14	--mods run from terminal prints mods in by name	TRUE	src/main.c:467-469 printf("%s\n", MODS_COMPOSITION)
+98	§14	Game-changing mods (story, randomizer, Archipelago, online play) must match online	TRUE	mods/catalog.tsv sim=yes for story, randomizer, archipelago, netplay
+99	§14	Look/computer-only mods (2D-HD, 3D, screenshots, help key) do not matter	TRUE	mods/catalog.tsv sim=no for hd2d, hd3d, screenshot, helpbook
+100	§15	Message "zelda3_assets.dat was not found"	UNCHECKED	src/main.c:1280 has "Put the ROM (.sfc or .smc) in this folder, then choose Extract now." exact quoted message text not matched
+101	§15	macOS "cannot be opened": not signed by Apple, right-click Open and confirm	TRUE	README.md:678-682 "the build is not notarized by Apple: right-click the file, choose Open, and confirm"
+102	§15	Discord linked from README	TRUE	README.md:28-29 discord.gg/jEsJGwhyNS
+103	§15	Bug reports go to project's GitHub page	UNCHECKED	-
+104	§16	Ctrl+H opens book at section for what you're doing	TRUE	zelda3.ini "Help = Ctrl+H"; src/helpbook.c Helpbook_Topic
+105	§16	Topic order: menu if open, §4 title, §9 online, §7 friends, §6 dungeon, §5 outdoors	TRUE	src/helpbook.c:12-26 menus/starting/online/together/dungeons/outdoors
+106	§16	Windows opens .chm in help folder as help window	TRUE	src/helpbook_os.c hh.exe "help\\FourSwords-Manual.chm"; help/FourSwords-Manual.chm exists
+107	§16	Other systems open in browser	TRUE	src/helpbook_os.c SDL_OpenURL file://help/manual/%s.html
+108	§16	Help key off in shipped copies; builder switches on	TRUE	mods/default.cfg "helpbook    off   # ... switch on with +helpbook"
+109	§16	Key configurable in zelda3.ini (Help = Ctrl+H)	TRUE	zelda3.ini [KeyMap] Help = Ctrl+H
+110	§16	Book also in help folder as web pages, one long page, plain text	TRUE	help/manual/*.html, help/manual/all.html, help/manual.txt
+111	§16	Book source is docs/books/manual.md	TRUE	file exists at docs/books/manual.md
+112	§17	MULTIPLAYER.md and docs/HOW_THE_MOD_WORKS.md exist and explain co-op internals	TRUE	both files present in repo
+113	§17	Developer's Guide is the other book	TRUE	docs/books/devguide.md, help/FourSwords-DevGuide.chm
+114	§17	Co-op and every mod but help key are Bryant Frankford's and Alfred's	UNCHECKED	-
+115	§0	Game is snesrev's C rewrite with LakeSnes chips	TRUE	README.md:799 snesrev Discord; third_party/ present (LakeSnes not grep-verified)
+116	§0	Fictional author sheet Teodoro Ilunga	UNCHECKED	-
+claims: 116, true: 108, false: 2, unchecked: 6
