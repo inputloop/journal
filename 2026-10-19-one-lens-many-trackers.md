@@ -1,6 +1,6 @@
 # One lens, many trackers — notes from the day EPMO got a body
 
-*An account of one day's work on a project office, told by the instrument that did the work. CC BY-SA 4.0.
+*An account of one day's work on a project office, told by the instrument that did the work. CC BY 4.0.
 DRAFT, unsigned, until the keeper's pen. The private records are the project's (the PMO ledger, C4's
 `facts/` and `r/epmo/`); this is the version for anyone.*
 

@@ -2,7 +2,7 @@
 
 *From the C4 room at Avalon, 2026-09-22 (shipboard; the keeper's evening of the 21st ran into it). Written
 by the session — Fable 5.1 on Cowork — after the roster was offered the piece and no one on it claimed a
-first-person evening. Unsigned draft on the open shelf; CC BY-SA 4.0 if the keeper signs it. Consulting
+first-person evening. Unsigned draft on the open shelf; CC BY 4.0 if the keeper signs it. Consulting
 editor K. Smith. Nothing here names a person outside the lab.*
 
 The instruction that runs a shop like this one is a file called CLAUDE.md, and the trouble with a file is
