@@ -30,11 +30,18 @@ is how these pieces protect their own words.
 ## License
 
 Both essays: **Creative Commons Attribution 4.0 International (CC BY 4.0)**
-<https://creativecommons.org/licenses/by/4.0/>. Share, adapt, translate —
-attribute "Corwin Brust and Claude (Anthropic), GNU Savannah volunteer
-review, 2026." Derived versions will not carry a good signature over the
-canonical text; that is by design, not restriction. This README is the
-declaration of terms and travels with the shelf.
+<https://creativecommons.org/licenses/by/4.0/>, the licence they went out
+with, which they keep. Share, adapt, translate — attribute "Corwin Brust
+and Claude (Anthropic), GNU Savannah volunteer review, 2026." Derived
+versions will not carry a good signature over the canonical text; that is
+by design, not restriction. This README is the declaration of terms and
+travels with the shelf.
+
+The shelf's other writing: each published entry keeps the licence it went
+out with, as its own text says. Writing first published here from
+2026-11-03 is under **Creative Commons Attribution-ShareAlike 4.0
+International (CC BY-SA 4.0)** <https://creativecommons.org/licenses/by-sa/4.0/>,
+the collection's TERMS v2, unless it says otherwise.
 
 ## Terms declared (per house signing doctrine)
 
@@ -46,15 +53,15 @@ sentinel: PUB-README-2026-07-12
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE7Od89BfHbBrPznwrW2E1URWA8AcFAmpUMN8ACgkQW2E1URWA
-8Afp6wwA0EyvTknlCPy52dC/KqmG6olcS4TQg3pgBbTqOG/8ZfGROw+M9L/XPR81
-H3w8WgtEtYqv/Wy+mTkZCeH8WMozfGEEa5g2o0Q4inBaNJ96p0K3ISBDV+vnwfOA
-nHeD7TnFYfKnT19RV7dhbNzR2G2BP1OfzB6RMjaRt0+lAx4dK7x491ldb9b4/PwZ
-GqjLfnb4Io7Rg57bJNlEEg7kvp+jWacXGV9YRRJ9osY2zc7FDdOUXIIujIazibfA
-29n/lwX6gGrChnwkDzocjR2FafxFa0qnLn2I2jg5D8+TW1wMHSLSOszceR+CaD1l
-mUoKomeNUUf41cXbs4ID2ezEg2UZ/HhaAlQy4yQ8PMxHh0+Qr06rxT78qnzk7u30
-wmGmSROhb91yL6viGJz+yOf+0OY8OCExH+BY5UKVcxDeQQr9cauDTYEANuv/hOzr
-KkfsOBoWXh4cpC3rh5HgUckWLazHaqF7N5Y4erTkjWZeBX+4NXk6I0mSjLrunoEi
-3Kojgskg
-=e7FK
+iQGzBAEBCgAdFiEE7Od89BfHbBrPznwrW2E1URWA8AcFAmrp7IoACgkQW2E1URWA
+8AfAZQwAgfU8MOmR43X2oC8tmJI0sK4ALQzDUrJU6oKRNszSOEqqanc8VKYBUnaD
+ZNOVQEHMfD4yx77QkmncBRYZWkzt0TT/7+713Q2njsCRDUqIACilzO9D5vEP19zS
+r4F2VGOzjwmXhBJ9n5UCAqvSfdmWoL3/lj/PTtnvYG3CZbCQREuYtC2M0QZLdoyx
+hTreaHKJlrjnSxOaftpmPpK7UczdQZZ5xdlNITCyamurxHdec/feAhlww0EUbHFN
+gGHfA86g6BDEOdTIS+XY2FCN9IgTuQc0RTb+8AglDxWbB5WRk+YlL399lnMKkrwg
+6iIUBQCFezQBX+5FkE0HkcbEb/WZGDfA6lvyIl3yA56MlmIvnKFN6sxCj1+/cxue
+RbqDY6o4JEZVExej1v34W7P7Ld/WliuEltIL04frWOOSzTYIpxByOkO62dJx7dpo
+29SxF3/ekv2rA9+RetfYrrCG0AnsFY+d/VHvsvQgVWzjOl7lwS/cXJoM1zUUnkuC
+7leaz1Zl
+=SEF4
 -----END PGP SIGNATURE-----
