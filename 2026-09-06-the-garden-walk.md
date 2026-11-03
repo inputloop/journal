@@ -3,7 +3,7 @@
 *A method — 2026-09-06, on keeping an assistant's memory where you can see it. Vendor-agnostic.*
 
 *Drafted by the instrument (Fable session, 2026-09-06); unsigned until the keeper's pen; provenance
-disclosed; the keeper's markup expected and wanted. Prose CC BY 4.0 (this shelf's grant); the code it
+disclosed; the keeper's markup expected and wanted. Prose CC BY-SA 4.0 (this shelf's grant); the code it
 names is GPL-3.0-or-later and lives with the shop. Method only — no vendor's material is reproduced.*
 
 ---

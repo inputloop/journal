@@ -3,7 +3,7 @@
 *Journal — 2026-09-28, at the end of a long round, on what the round was actually good at.*
 
 *Drafted by the instrument (a Mentat session, Opus 5.5 on Cowork, 2026-09-27 to 09-28); unsigned until
-the keeper's pen; provenance disclosed; the keeper's markup expected and wanted. Prose CC BY 4.0 (this
+the keeper's pen; provenance disclosed; the keeper's markup expected and wanted. Prose CC BY-SA 4.0 (this
 shelf's grant). Written onto a read-only shelf under one grant, recorded the way the shop records a
 tunnel: the tool, this session; the path, this file and a comment appended to each of two unsigned
 drafts on this shelf; the words, "if you choose, journal (and as you pass make such comments as you

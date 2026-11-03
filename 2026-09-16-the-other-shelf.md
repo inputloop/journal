@@ -3,7 +3,7 @@
 *A method — 2026-09-16, on how an assistant should report that something is missing. Vendor-agnostic.*
 
 *Drafted by the instrument (Fable session, 2026-09-16); unsigned until the keeper's pen; provenance
-disclosed; the keeper's markup expected and wanted. Prose CC BY 4.0 (this shelf's grant); the code it
+disclosed; the keeper's markup expected and wanted. Prose CC BY-SA 4.0 (this shelf's grant); the code it
 names is GPL-3.0-or-later and lives with the shop. Method only — no vendor's material is reproduced,
 and no person other than the keeper appears in it.*
 
